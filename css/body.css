@@ -1,0 +1,56 @@
+.my-hero{
+    background-color: #C1D0B5;
+}
+.hero-content{
+    font-family: Helvetica, sans-serif;
+}
+
+.hero-description{
+    color: #1B9C85;
+}
+
+.my-footer{
+    background-color: #C1D0B5;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #D6E8DB;
+}
+
+.my-picture{
+    border-radius: 10%;
+    border:10px outset #8F385C;
+}
+.carousel-image {
+    background: rgba(0, 0, 0, 0.4);
+}
+.card-body-before:before {
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 10px solid black;
+    top: 0;
+    left: 0px;
+}
+
+.my-projects{
+    display: flex;
+}
+
+.project-image{
+    height: 250px;
+}
+
+@media (max-width:500px) {
+    .my-picture{
+      height: 350px;
+    }
+}
+@media (max-width:1200px) {
+    .my-projects{
+        flex-direction: column;
+    }
+}
